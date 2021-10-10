@@ -1,0 +1,129 @@
+            .swe-card-primary,
+            .swe-card-secondary,
+            .swe-card-success,
+            .swe-card-info,
+            .swe-card-warning,
+            .swe-card-danger,
+            .swe-card-light,
+            .swe-card-dark {
+                display: inline-block;
+                position: relative;
+                width: 100%;
+                margin: 25px 0;
+                margin-top: 40px;
+                box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+                border-radius: 6px;
+                color: rgba(0, 0, 0, 0.87);
+                background: #fff;
+            }
+            
+            .swe-card-header-primary,
+            .swe-card-header-secondary,
+            .swe-card-header-success,
+            .swe-card-header-info,
+            .swe-card-header-warning,
+            .swe-card-header-danger,
+            .swe-card-header-light,
+            .swe-card-header-dark {
+                display: inline-block;
+                position: relative;
+                max-width: calc(100% - 30px);
+                margin-left: 15px;
+                margin-top: -20px;
+                padding: 5px 15px;
+                border-radius: 6px;
+                background: var(--bs-primary, #000046);
+                box-shadow: 0 4px 20px 0px rgb(0 0 0 / 14%), 0 7px 30px -15px var(--bs-primary, #000046);
+                color: var(--bs-light, #fff);
+            }
+            
+            .swe-card-header-primary *,
+            .swe-card-header-secondary *,
+            .swe-card-header-success *,
+            .swe-card-header-info *,
+            .swe-card-header-warning *,
+            .swe-card-header-danger *,
+            .swe-card-header-light *,
+            .swe-card-header-dark * {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            .swe-card-body-primary,
+            .swe-card-body-secondary,
+            .swe-card-body-success,
+            .swe-card-body-info,
+            .swe-card-body-warning,
+            .swe-card-body-danger,
+            .swe-card-body-light,
+            .swe-card-body-dark {
+                margin: 0px;
+                padding: 15px;
+            }
+            
+            .swe-card-footer-primary,
+            .swe-card-footer-secondary,
+            .swe-card-footer-success,
+            .swe-card-footer-info,
+            .swe-card-footer-warning,
+            .swe-card-footer-danger,
+            .swe-card-footer-light,
+            .swe-card-footer-dark {
+                background-color: rgba(0, 0, 0, 0.03);
+                border-top: 1px solid rgba(0, 0, 0, 0.125);
+                padding: 15px;
+            }
+            
+            .swe-card-footer-primary *,
+            .swe-card-footer-secondary *,
+            .swe-card-footer-success *,
+            .swe-card-footer-info *,
+            .swe-card-footer-warning *,
+            .swe-card-footer-danger *,
+            .swe-card-footer-light *,
+            .swe-card-footer-dark * {
+                margin-bottom: 0px;
+                font-size: x-small;
+            }
+            
+            .swe-card-header-secondary {
+                background: var(--bs-secondary, #000046);
+                box-shadow: 0 4px 20px 0px rgb(0 0 0 / 14%), 0 7px 30px -15px var(--bs-primary, #8499a8);
+                color: var(--bs-light, #fff);
+            }
+            
+            .swe-card-header-success {
+                background: var(--bs-success, #000046);
+                box-shadow: 0 4px 20px 0px rgb(0 0 0 / 14%), 0 7px 30px -15px var(--bs-success, #00c894);
+                color: var(--bs-light, #fff);
+            }
+            
+            .swe-card-header-info {
+                background: var(--bs-info, #000046);
+                box-shadow: 0 4px 20px 0px rgb(0 0 0 / 14%), 0 7px 30px -15px var(--bs-info, #7854e4);
+                color: var(--bs-light, #fff);
+            }
+            
+            .swe-card-header-warning {
+                background: var(--bs-warning, #000046);
+                box-shadow: 0 4px 20px 0px rgb(0 0 0 / 14%), 0 7px 30px -15px var(--bs-warning, #ffc107);
+                color: var(--bs-light, #fff);
+            }
+            
+            .swe-card-header-danger {
+                background: var(--bs-danger, #000046);
+                box-shadow: 0 4px 20px 0px rgb(0 0 0 / 14%), 0 7px 30px -15px var(--bs-danger, #e13871);
+                color: var(--bs-light, #fff);
+            }
+            
+            .swe-card-header-light {
+                background: var(--bs-light, #000046);
+                box-shadow: 0 4px 20px 0px rgb(0 0 0 / 14%), 0 7px 30px -15px var(--bs-light, #ffffff);
+                color: var(--bs-light, #fff);
+            }
+            
+            .swe-card-header-dark {
+                background: var(--bs-dark, #000046);
+                box-shadow: 0 4px 20px 0px rgb(0 0 0 / 14%), 0 7px 30px -15px var(--bs-dark, #343a40);
+                color: var(--bs-light, #fff);
+            }
